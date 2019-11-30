@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">OxfordTour</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Local_Events">Events</string>
+    <string name="Place1">Ashmolean Museum</string>
+    <string name="title_activity_ashmolean_musuem">AshmoleanMusuem</string>
+    <string name="Place">Magdalen College</string>
+    <string name="title_activity_Magdalen_College">AshmoleanMusuem</string>
+    <string name="Place2">Christ Church</string>
+    <string name="Place3">Magdalen College</string>
+    <string name="AshMusPicDescrip">Places Image for Ash Museum</string>
+    <string name="ChristChurchPicDescrip">Places Image for ChristChurch</string>
+    <string name="MagdalenCollegePicDescrip">Places Image for MagadalenCollege</string>
+
+    /Strings for Ashmolean page/
+    <string name="Title_Ashmolean">Ashmolean Museum</string>
+    <string name="Address_Ashmolean">Address: Beaumont Street, Oxford OX1 2PH.</string>
+    <string name="Hours_Ashmolean">Hours Tue – Sun 10:00 – 17:00</string>
+    <string name="Website_Ashmolean">Website: <a href="AshmoleanMuseumWebsite">http://www.ashmolean.org</a></string>
+    <string name="MainText_Ashmolean">The Ashmolean Museum of Art and Archaeology
+        on Beaumont Street, Oxford, England, is the worlds first university museum.
+        Its first building was erected in 1678–83 to house the cabinet of curiosities that
+        \'Elias Ashmole\' gave to the University of Oxford in 1677.</string>
+    <string name="Ashmolean_Signup_Button">Sign up to tour</string>
+    <string name="Ashmolean_Review_Button">Review this place</string>
+
+    /Strings for events page/
+    <string name="Beacon_Festival">Beacon Festival</string>
+    <string name="Oxford_Literary_Festival">Oxford Literary Festival</string>
+    <string name="We_Will_Rock_You">We Will Rock You</string>
+    <string name="Milton_Impossible">Milton Impossible</string>
+    <string name="Oxford_Boxing_Championships">Oxford Boxing Championships</string>
+    <string name="SignUp1">Sign Up</string>
+    <string name="SignUp2">Sign Up</string>
+    <string name="SignUp3">Sign Up</string>
+    <string name="SignUp4">Sign Up</string>
+    <string name="SignUp5">Sign Up</string>
+
+
+    /Strings for Christ Church page/
+    <string name="Title_Christ_Church">Christ Church</string>
+    <string name="About_Christ_Church">With its compelling combination of majestic architecture, literary heritage and double identity as (parts of) Harry Potter’s Hogwarts, Christ Church attracts tourists galore. Among Oxford’s largest colleges – the largest, if you include its bucolic meadow – and proud possessor of its most impressive quad, plus a superb art gallery and even a cathedral, it was founded in 1525 by Cardinal Wolsey. It later became home to Lewis Carroll, whose picnic excursions with the then-dean’s daughter gave us Alice Adventures in Wonderland.</string>
+    <string name="Details">Details</string>
+    <string name="Info">Contact Number -01865-276492
+                      Hours - 10am-5pm Mon-Sat, from 2pm Sun, last admission 4.15pm
+                      Price - adult/child Jul-Aug £10/9, Sep-Jun £8/7</string>
+    <string name="Christ_Church_Link">www.chch.ox.ac.uk/</string>
+    <string name="Christ_Church_Review">Review</string>
+    <string name="Christ_Church_SignUp">Sign Up</string>
+    <string name="title_activity_magdalen__college">Magdalen_College</string>
+
+    /Strings for MagdalenCollege page/
+    <string name="Title_MagdalenCollege">Magdalen College</string>
+    <string name="Address_MagdalenCollege">Address: High Street, Oxford OX1 4AU.</string>
+    <string name="Hours_MagdalenCollege">We are open: 9:30-17:00</string>
+    <string name="Website_MagdalenCollege">Website: <a href="Magdalen CollegeWebsite">https://www.magd.ox.ac.uk/</a></string>
+    <string name="MainText_MagdalenCollege">Magdalen welcomes visitors throughout the year. As a busy and lively working academic community we like to ensure you will enjoy your visit whether it is as a potential student here, an alumnus, an academic visitor, or as a tourist.</string>
+    <string name="MagdalenCollege_Signup_Button">Sign up to tour</string>
+    <string name="MagdalenCollege_Review_Button">Review this place</string>
+    <string name="high_street_ox1_4au_oxford">High Street, OX1 4AU, Oxford.</string>
+    <string name="we_are_open_9_30_17_00">We are open: 9:30-17:00</string>
+    <string name="https_www_magd_ox_ac_uk">https://www.magd.ox.ac.uk/</string>
+    <string name="magdalen_welcomes_visitors_throughout_the_year_as_a_busy_and_lively_working_academic_community_we_like_to_ensure_you_will_enjoy_your_visit_whether_it_is_as_a_potential_student_here_an_alumnus_an_academic_visitor_or_as_a_tourist">Magdalen welcomes visitors throughout the year. As a busy and lively working academic community we like to ensure you will enjoy your visit whether it is as a potential student here, an alumnus, an academic visitor, or as a tourist.</string>
+    <string name="sign_up">Sign up :</string>
+    <string name="please_reveiw_this_place">Please Reveiw this place</string>
+    <string name="MagdalenCollege_image">MagdalenCollege image</string>
+    <string name="magdalen_college">Magdalen College</string>
+    <string name="title_activity_popup__event">Popup_Event</string>
+
+
+</resources>

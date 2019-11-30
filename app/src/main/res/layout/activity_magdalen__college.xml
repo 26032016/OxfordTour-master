@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        tools:context=".Magdalen_College">
+
+        <EditText
+            android:id="@+id/Title_Magdalen_College"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginLeft="96dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:text="@string/magdalen_college"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.029"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Address_Magdalen_College"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/high_street_ox1_4au_oxford"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Title_Magdalen_College" />
+
+        <TextView
+            android:id="@+id/Hours_Magdalen_College"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/we_are_open_9_30_17_00"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Address_Magdalen_College" />
+
+        <TextView
+            android:id="@+id/Website_Magdalen_College"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:autoLink="web"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/https_www_magd_ox_ac_uk"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Hours_Magdalen_College" />
+
+        <TextView
+            android:id="@+id/MainText_Magdalen_College"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/magdalen_welcomes_visitors_throughout_the_year_as_a_busy_and_lively_working_academic_community_we_like_to_ensure_you_will_enjoy_your_visit_whether_it_is_as_a_potential_student_here_an_alumnus_an_academic_visitor_or_as_a_tourist"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Website_Magdalen_College" />
+
+        <Button
+            android:id="@+id/Magdalen_College_Signup_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/sign_up"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toEndOf="@+id/Website_Magdalen_College"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Magdalen_College_Review_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="@string/please_reveiw_this_place"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Magdalen_College_image" />
+
+        <ImageView
+            android:id="@+id/Magdalen_College_image"
+            android:layout_width="290dp"
+            android:layout_height="341dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginRight="51dp"
+            android:contentDescription="@string/MagdalenCollege_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/MainText_Magdalen_College"
+            app:srcCompat="@drawable/magdalencollege" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
